@@ -17,6 +17,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		60368AD51F8610A800662590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60368ACF1F8610A800662590 /* swift3Tech.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 60368A9E1F860E4200662590;
+			remoteInfo = swift3Tech;
+		};
+		60368AD71F8610A800662590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60368ACF1F8610A800662590 /* swift3Tech.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 60368AB21F860E4200662590;
+			remoteInfo = swift3TechTests;
+		};
+		60368AD91F8610A800662590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60368ACF1F8610A800662590 /* swift3Tech.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 60368ABD1F860E4200662590;
+			remoteInfo = swift3TechUITests;
+		};
+		60368AED1F8610C300662590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60368AE71F8610C300662590 /* swift4Tech.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 60EC51451F860D3800C943FA;
+			remoteInfo = swift4Tech;
+		};
+		60368AEF1F8610C300662590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60368AE71F8610C300662590 /* swift4Tech.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 60EC51591F860D3800C943FA;
+			remoteInfo = swift4TechTests;
+		};
+		60368AF11F8610C300662590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60368AE71F8610C300662590 /* swift4Tech.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 60EC51641F860D3800C943FA;
+			remoteInfo = swift4TechUITests;
+		};
 		60EC50E61F860A4A00C943FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 60EC50C91F860A4A00C943FA /* Project object */;
@@ -34,6 +76,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60368ACF1F8610A800662590 /* swift3Tech.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = swift3Tech.xcodeproj; path = ../../swift3Tech/swift3Tech/swift3Tech.xcodeproj; sourceTree = "<group>"; };
+		60368AE71F8610C300662590 /* swift4Tech.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = swift4Tech.xcodeproj; path = ../../swift4Tech/swift4Tech/swift4Tech.xcodeproj; sourceTree = "<group>"; };
 		60EC50D11F860A4A00C943FA /* SwiftCompatibility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCompatibility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EC50D41F860A4A00C943FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60EC50D61F860A4A00C943FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,9 +118,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60368AD01F8610A800662590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60368AD61F8610A800662590 /* swift3Tech.app */,
+				60368AD81F8610A800662590 /* swift3TechTests.xctest */,
+				60368ADA1F8610A800662590 /* swift3TechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60368AE81F8610C300662590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60368AEE1F8610C300662590 /* swift4Tech.app */,
+				60368AF01F8610C300662590 /* swift4TechTests.xctest */,
+				60368AF21F8610C300662590 /* swift4TechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		60EC50C81F860A4A00C943FA = {
 			isa = PBXGroup;
 			children = (
+				60368ACF1F8610A800662590 /* swift3Tech.xcodeproj */,
+				60368AE71F8610C300662590 /* swift4Tech.xcodeproj */,
 				60EC50D31F860A4A00C943FA /* SwiftCompatibility */,
 				60EC50E81F860A4A00C943FA /* SwiftCompatibilityTests */,
 				60EC50F31F860A4A00C943FA /* SwiftCompatibilityUITests */,
@@ -218,6 +284,16 @@
 			mainGroup = 60EC50C81F860A4A00C943FA;
 			productRefGroup = 60EC50D21F860A4A00C943FA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 60368AD01F8610A800662590 /* Products */;
+					ProjectRef = 60368ACF1F8610A800662590 /* swift3Tech.xcodeproj */;
+				},
+				{
+					ProductGroup = 60368AE81F8610C300662590 /* Products */;
+					ProjectRef = 60368AE71F8610C300662590 /* swift4Tech.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				60EC50D01F860A4A00C943FA /* SwiftCompatibility */,
@@ -226,6 +302,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		60368AD61F8610A800662590 /* swift3Tech.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = swift3Tech.app;
+			remoteRef = 60368AD51F8610A800662590 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60368AD81F8610A800662590 /* swift3TechTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = swift3TechTests.xctest;
+			remoteRef = 60368AD71F8610A800662590 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60368ADA1F8610A800662590 /* swift3TechUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = swift3TechUITests.xctest;
+			remoteRef = 60368AD91F8610A800662590 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60368AEE1F8610C300662590 /* swift4Tech.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = swift4Tech.app;
+			remoteRef = 60368AED1F8610C300662590 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60368AF01F8610C300662590 /* swift4TechTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = swift4TechTests.xctest;
+			remoteRef = 60368AEF1F8610C300662590 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60368AF21F8610C300662590 /* swift4TechUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = swift4TechUITests.xctest;
+			remoteRef = 60368AF11F8610C300662590 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		60EC50CF1F860A4A00C943FA /* Resources */ = {

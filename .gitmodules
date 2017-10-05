@@ -1,0 +1,6 @@
+[submodule "SwiftCompatibility/swift3Tech"]
+	path = SwiftCompatibility/swift3Tech
+	url = https://github.com/lagapollo/swift3Tech
+[submodule "SwiftCompatibility/swift4Tech"]
+	path = SwiftCompatibility/swift4Tech
+	url = https://github.com/lagapollo/swift4Tech
